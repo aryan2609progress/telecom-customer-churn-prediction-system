@@ -1,0 +1,397 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "admin",
+      "name": "Aryan Singh",
+      "email": "aryanxcv2609@gmail.com",
+      "role": "admin",
+      "status": "active"
+    },
+    {
+      "id": "u2",
+      "username": "manager",
+      "name": "Priya Patel (Manager)",
+      "email": "priya@teleconnect.com",
+      "role": "manager",
+      "status": "active"
+    },
+    {
+      "id": "u3",
+      "username": "employee",
+      "name": "Rohan Verma (Executive)",
+      "email": "rohan@teleconnect.com",
+      "role": "employee",
+      "status": "active"
+    }
+  ],
+  "passwords": {
+    "u1": "Aryan123",
+    "u2": "password123",
+    "u3": "password123"
+  },
+  "customers": [
+    {
+      "id": "CUST-8374",
+      "personal": {
+        "id": "CUST-8374",
+        "name": "Rajesh Kumar",
+        "gender": "Male",
+        "age": 67,
+        "dob": "1959-04-12",
+        "phone": "+91 98765 43210",
+        "email": "rajesh.kumar@gmail.com",
+        "address": "A-45, Shanti Kunj, Sector 12",
+        "city": "Noida",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "pincode": "201301"
+      },
+      "family": {
+        "seniorCitizen": "Yes",
+        "partner": "No",
+        "dependents": "No"
+      },
+      "telecom": {
+        "tenure": 3,
+        "phoneService": "Yes",
+        "multipleLines": "No",
+        "internetService": "Fiber optic",
+        "onlineSecurity": "No",
+        "onlineBackup": "No",
+        "deviceProtection": "No",
+        "techSupport": "No",
+        "streamingTV": "Yes",
+        "streamingMovies": "Yes"
+      },
+      "billing": {
+        "contract": "Month-to-month",
+        "paperlessBilling": "Yes",
+        "paymentMethod": "Electronic check",
+        "monthlyCharges": 95.85,
+        "totalCharges": 287.55
+      },
+      "riskLevel": "high",
+      "churnProbability": 88,
+      "createdAt": "2026-06-17T09:29:40.474Z",
+      "updatedAt": "2026-07-15T09:29:40.475Z",
+      "assignedEmployeeId": "u3",
+      "assignedEmployeeName": "Rohan Verma (Executive)"
+    },
+    {
+      "id": "CUST-2940",
+      "personal": {
+        "id": "CUST-2940",
+        "name": "Anjali Sharma",
+        "gender": "Female",
+        "age": 32,
+        "dob": "1994-08-22",
+        "phone": "+91 87654 32109",
+        "email": "anjali.sharma@outlook.com",
+        "address": "Flat 402, Royal Residency, Indiranagar",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "pincode": "560038"
+      },
+      "family": {
+        "seniorCitizen": "No",
+        "partner": "Yes",
+        "dependents": "Yes"
+      },
+      "telecom": {
+        "tenure": 48,
+        "phoneService": "Yes",
+        "multipleLines": "Yes",
+        "internetService": "DSL",
+        "onlineSecurity": "Yes",
+        "onlineBackup": "Yes",
+        "deviceProtection": "Yes",
+        "techSupport": "Yes",
+        "streamingTV": "No",
+        "streamingMovies": "No"
+      },
+      "billing": {
+        "contract": "Two year",
+        "paperlessBilling": "No",
+        "paymentMethod": "Bank transfer (automatic)",
+        "monthlyCharges": 64.25,
+        "totalCharges": 3084
+      },
+      "riskLevel": "low",
+      "churnProbability": 12,
+      "createdAt": "2025-07-17T09:29:40.475Z",
+      "updatedAt": "2026-07-12T09:29:40.475Z"
+    },
+    {
+      "id": "CUST-1049",
+      "personal": {
+        "id": "CUST-1049",
+        "name": "Vikram Singh",
+        "gender": "Male",
+        "age": 45,
+        "dob": "1981-11-05",
+        "phone": "+91 91234 56789",
+        "email": "vikram.singh@yahoo.com",
+        "address": "House No. 12, Sector 15-A",
+        "city": "Chandigarh",
+        "state": "Punjab",
+        "country": "India",
+        "pincode": "160015"
+      },
+      "family": {
+        "seniorCitizen": "No",
+        "partner": "Yes",
+        "dependents": "No"
+      },
+      "telecom": {
+        "tenure": 14,
+        "phoneService": "Yes",
+        "multipleLines": "Yes",
+        "internetService": "Fiber optic",
+        "onlineSecurity": "No",
+        "onlineBackup": "Yes",
+        "deviceProtection": "No",
+        "techSupport": "No",
+        "streamingTV": "Yes",
+        "streamingMovies": "No"
+      },
+      "billing": {
+        "contract": "One year",
+        "paperlessBilling": "Yes",
+        "paymentMethod": "Credit card (automatic)",
+        "monthlyCharges": 85.1,
+        "totalCharges": 1191.4
+      },
+      "riskLevel": "medium",
+      "churnProbability": 46,
+      "createdAt": "2026-02-17T09:29:40.475Z",
+      "updatedAt": "2026-07-07T09:29:40.475Z"
+    },
+    {
+      "id": "CUST-6629",
+      "personal": {
+        "id": "CUST-6629",
+        "name": "Siddharth Mehta",
+        "gender": "Male",
+        "age": 28,
+        "dob": "1998-02-14",
+        "phone": "+91 99887 76655",
+        "email": "sidmehta@gmail.com",
+        "address": "7C, Orbit Heights, Lower Parel",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India",
+        "pincode": "400013"
+      },
+      "family": {
+        "seniorCitizen": "No",
+        "partner": "No",
+        "dependents": "No"
+      },
+      "telecom": {
+        "tenure": 2,
+        "phoneService": "Yes",
+        "multipleLines": "No",
+        "internetService": "Fiber optic",
+        "onlineSecurity": "No",
+        "onlineBackup": "No",
+        "deviceProtection": "No",
+        "techSupport": "No",
+        "streamingTV": "No",
+        "streamingMovies": "No"
+      },
+      "billing": {
+        "contract": "Month-to-month",
+        "paperlessBilling": "Yes",
+        "paymentMethod": "Electronic check",
+        "monthlyCharges": 70.65,
+        "totalCharges": 141.3
+      },
+      "riskLevel": "high",
+      "churnProbability": 79,
+      "createdAt": "2026-05-18T09:29:40.475Z",
+      "updatedAt": "2026-07-16T09:29:40.475Z",
+      "assignedEmployeeId": "u3",
+      "assignedEmployeeName": "Rohan Verma (Executive)"
+    },
+    {
+      "id": "CUST-4410",
+      "personal": {
+        "id": "CUST-4410",
+        "name": "Neha Gupta",
+        "gender": "Female",
+        "age": 23,
+        "dob": "2003-07-30",
+        "phone": "+91 88990 11223",
+        "email": "neha.gupta@edu.in",
+        "address": "Girls Hostel, IIT Delhi, Hauz Khas",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "country": "India",
+        "pincode": "110016"
+      },
+      "family": {
+        "seniorCitizen": "No",
+        "partner": "No",
+        "dependents": "No"
+      },
+      "telecom": {
+        "tenure": 9,
+        "phoneService": "Yes",
+        "multipleLines": "No",
+        "internetService": "No",
+        "onlineSecurity": "No internet service",
+        "onlineBackup": "No internet service",
+        "deviceProtection": "No internet service",
+        "techSupport": "No internet service",
+        "streamingTV": "No internet service",
+        "streamingMovies": "No internet service"
+      },
+      "billing": {
+        "contract": "Month-to-month",
+        "paperlessBilling": "No",
+        "paymentMethod": "Mailed check",
+        "monthlyCharges": 20.15,
+        "totalCharges": 181.35
+      },
+      "riskLevel": "low",
+      "churnProbability": 25,
+      "createdAt": "2025-10-20T09:29:40.475Z",
+      "updatedAt": "2026-07-13T09:29:40.475Z"
+    }
+  ],
+  "predictions": [
+    {
+      "id": "PRED-001",
+      "customerId": "CUST-8374",
+      "customerName": "Rajesh Kumar",
+      "churnProbability": 88,
+      "riskScore": 88,
+      "riskLevel": "high",
+      "confidenceScore": 92,
+      "explanation": "The customer is a Senior Citizen on a high monthly plan ($95.85) with a Month-to-month contract and no protective services (Online Security, Tech Support, Backup). Electronic check payment also significantly increases historical risk.",
+      "riskFactors": [
+        "Month-to-month contract (High risk factor)",
+        "No Technical Support or Online Security subscribed",
+        "Electronic check manual payment method",
+        "Extremely short tenure (3 months) indicating a lack of brand loyalty",
+        "Senior Citizen profile increases risk correlation"
+      ],
+      "positiveFactors": [
+        "Subscribed to Phone Service"
+      ],
+      "createdAt": "2026-07-15T09:29:40.475Z"
+    },
+    {
+      "id": "PRED-002",
+      "customerId": "CUST-2940",
+      "customerName": "Anjali Sharma",
+      "churnProbability": 12,
+      "riskScore": 12,
+      "riskLevel": "low",
+      "confidenceScore": 95,
+      "explanation": "Customer has an extremely stable profile. Long tenure of 48 months, long-term Two-year contract, and automatic bank transfers are strong positive retainers.",
+      "riskFactors": [
+        "Older DSL technology which has slightly lower speeds"
+      ],
+      "positiveFactors": [
+        "Two-year secure lock-in contract",
+        "High tenure of 48 months",
+        "All security, backup, and tech support services are active",
+        "Automatic payment via bank transfer is enabled"
+      ],
+      "createdAt": "2026-07-12T09:29:40.475Z"
+    }
+  ],
+  "aiReports": [
+    {
+      "id": "REP-001",
+      "customerId": "CUST-8374",
+      "customerName": "Rajesh Kumar",
+      "executiveSummary": "Customer Rajesh Kumar is highly likely to churn within 30 days due to month-to-month contracting, poor technical protection, and rapid billing fatigue on high fiber optic charges.",
+      "riskAnalysis": "High vulnerability due to zero sticky services. Lack of Online Security and Tech Support makes them prone to service interruptions, leading to high frustration. The high charge of $95.85/mo for a senior citizen increases billing friction.",
+      "retentionStrategies": [
+        "Offer a 30% loyalty discount if they convert to a One-year contract ($67/month).",
+        "Provide complimentary Online Security and Tech Support for 6 months as an incentive.",
+        "Suggest setting up automatic billing (credit card/bank) with a one-time $10 account credit."
+      ],
+      "discountSuggestion": "30% Discount on 1-Year lock-in, plus $10 auto-pay sign up bonus.",
+      "nextBestAction": "Call customer immediately to pitch the Senior Citizen Care Bundle and transition to automatic billing.",
+      "createdAt": "2026-07-15T09:29:40.475Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "LOG-001",
+      "userId": "u1",
+      "userName": "Arjun Sharma (Admin)",
+      "role": "admin",
+      "action": "SYSTEM_STARTUP",
+      "details": "Telecom Customer Churn Prediction System database successfully initialized.",
+      "timestamp": "2026-06-18T09:29:40.475Z"
+    },
+    {
+      "id": "LOG-002",
+      "userId": "u3",
+      "userName": "Rohan Verma (Executive)",
+      "role": "employee",
+      "action": "PREDICTION_GENERATED",
+      "details": "Generated Churn Risk assessment for customer Rajesh Kumar (CUST-8374). Risk: High (88%)",
+      "timestamp": "2026-07-15T09:29:40.475Z"
+    },
+    {
+      "id": "LOG-224984",
+      "userId": "u1",
+      "userName": "Arjun Sharma (Admin)",
+      "role": "admin",
+      "action": "USER_LOGIN",
+      "details": "User admin successfully logged in.",
+      "timestamp": "2026-07-17T09:31:40.937Z"
+    },
+    {
+      "id": "LOG-320164",
+      "userId": "u1",
+      "userName": "Arjun Sharma (Admin)",
+      "role": "admin",
+      "action": "USER_LOGIN",
+      "details": "User admin successfully logged in.",
+      "timestamp": "2026-07-17T09:32:56.969Z"
+    },
+    {
+      "id": "LOG-703126",
+      "userId": "u1",
+      "userName": "Aryan Singh",
+      "role": "admin",
+      "action": "USER_LOGIN",
+      "details": "User admin successfully logged in.",
+      "timestamp": "2026-07-17T09:41:34.072Z"
+    }
+  ],
+  "followUps": [
+    {
+      "id": "FW-001",
+      "customerId": "CUST-8374",
+      "customerName": "Rajesh Kumar",
+      "assignedToId": "u3",
+      "assignedToName": "Rohan Verma (Executive)",
+      "notes": "Called customer to pitch contract migration. Customer is frustrated with recent speeds but is willing to consider a discounted contract if service improves.",
+      "followUpDate": "2026-07-19",
+      "customerResponse": "Under Consideration",
+      "status": "Open",
+      "createdAt": "2026-07-15T09:29:40.475Z"
+    }
+  ],
+  "settings": {
+    "company": {
+      "name": "TeleConnect Global",
+      "logoUrl": "",
+      "email": "retention@teleconnect.com",
+      "phone": "+1 (555) 019-2834",
+      "address": "100 Innovation Way, Suite 400, Silicon Valley, CA"
+    },
+    "theme": "light",
+    "aiModel": "gemini-3.5-flash",
+    "emailAlertsEnabled": true
+  }
+}

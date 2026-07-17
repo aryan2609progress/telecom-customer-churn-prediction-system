@@ -1,0 +1,6 @@
+{
+  "name": "Telecom Customer Churn Prediction System",
+  "description": "A professional full-stack platform for predicting customer churn risk, tracking profiles, generating AI retention strategies with Gemini, and managing follow-ups.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
