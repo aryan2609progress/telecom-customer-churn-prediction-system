@@ -152,7 +152,13 @@ Designed with a clean dashboard and responsive interface, the system helps busin
 <!-- part 2 -->
 # 📸 Application Preview
 
-> **Dashboard**
+## 🔐 Login Screen
+
+![Login](assets/screenshots/login.png)
+
+---
+
+## 📊 Dashboard
 
 ![Dashboard](assets/screenshots/dashboard.png)
 
